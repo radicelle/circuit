@@ -1,0 +1,12 @@
+[package]
+name = "circuit"
+version = "2025.2.0"
+edition = "2024"
+
+[dependencies]
+ratatui = "0.24.0"
+crossterm = "0.27.0"
+irc = "0.15.0"
+tokio = { version = "1.35.0", features = ["full"] }
+anyhow = "1.0.75"
+futures = "0.3"
